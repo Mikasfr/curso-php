@@ -20,3 +20,17 @@ tipos primitivos escalares:
     $casado = true; // bool ou boolean - Um valor logico ou booleano, que aceita apenas valores verdadeiro ou falso (true or false)
 
 ?>
+
+tipos primitivos compostos:
+
+<?php 
+
+    $vet = [6, 7, 8, 7, 5]; // array - listas de dados  
+
+    class Pessoa{
+        private string $nome;
+    }
+
+    $p = new Pessoa;    // obeject 
+
+?>
